@@ -4,7 +4,7 @@ jdk:
 before_install:
   - sudo apt-get update
   - cd app/
-  - echo "Let's start Maven Package!!!"
+  - echo "Starting the Marvin!!!"
   - mvn clean package
   - cd ..
   - echo "We are in root dir"
