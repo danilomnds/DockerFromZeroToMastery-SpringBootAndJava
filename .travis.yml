@@ -1,4 +1,6 @@
 language: java
+os: linux
+dist: xenial
 jdk:
   - oraclejdk11
 before_install:
